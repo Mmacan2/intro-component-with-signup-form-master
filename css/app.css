@@ -1,0 +1,137 @@
+html{
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    font-size: 16px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+
+#box-left{
+    display: flex;
+    flex-direction: column;
+    max-width:40%;
+    color: white;
+    padding-right: 45px;
+
+}
+
+#box-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#box-right{
+    display: flex;
+    flex-direction: column;
+    max-width:40%;
+    width: 425px;
+    text-align: center;
+    
+
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 25px 35px;
+}
+#form form{
+    width: 100%;
+}
+
+#form input{
+    width: 100%;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#free-trial{
+    background-color: hsl(248, 32%, 49%) ;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#form{
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#form input{
+    margin-top: 10px;
+    height: 3em;
+    font-weight: 600;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-indent: 30px;
+    padding: 0;
+}
+#form button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 100%;
+    border: none;
+    height: 3em;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    margin-top: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),-2px -2px 4px rgba(0, 0, 0, 0.2);;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#form button:hover{
+    background-color:  hsl(154, 58%, 62%);
+}
+
+#form p{
+    font-size: 8px;
+    color: hsl(246, 25%, 77%);
+}
+#form p b{
+    color: hsl(0, 100%, 74%);
+}
+.error{
+    display: flex;
+    font-style: italic;
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    float: right;
+}
+
+.error-border{
+    border: 2px solid #FF7979 !important; 
+}
+
+@media(max-width:425px){
+    body{
+        flex-direction: column;
+    }
+}
+
